@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+    </head>
+    <body>
+        <script>
+var add=()=>{
+                a=parseInt(document.getElementById("first").value);
+               b=parseInt( document.getElementById("last").value);
+                var c=a+b;
+                document.getElementById("res").value=c;
+             }
+             function mul(){
+                a=parseInt(document.getElementById("first").value);
+               b=parseInt( document.getElementById("last").value);
+                var c=a*b;
+                document.getElementById("res").value=c;
+             }
+             function sub(){
+                a=parseInt(document.getElementById("first").value);
+               b=parseInt( document.getElementById("last").value);
+                var c=a-b;
+                document.getElementById("res").value=c;
+             }
+             
+             function div(){
+                a=parseInt(document.getElementById("first").value);
+               b=parseInt( document.getElementById("last").value);
+                var c=a/b;
+                document.getElementById("res").value=c;
+             }
+             
+            </script>
+        FirstNO: <input type="text" name="firstname" id="first"><br><br>
+        SecondNO: <input type="text" name="lastname" id="last"><br><br>
+        <input type="submit" value="ADD" onclick="add()" id="uh">
+        <input type="submit" value="MUL" onclick="mul()" id="KU">
+        <input type="submit" value="SUB" onclick="sub()" id="Ph">
+        <input type="submit" value="DIV" onclick="div()" id="Kh"><br><br>
+        Result: <input type="text" name="result" id="res">
+        </body>
+        </html>

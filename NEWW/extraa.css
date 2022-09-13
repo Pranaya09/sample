@@ -1,0 +1,26 @@
+body{
+    height: 100%;
+     background-image: url(istockphoto-185007737-170667a.jpg);
+     background-size: cover;
+     margin: 0px;
+     padding: 0px;
+     color:white;
+}
+.ima{
+    width: 500px;
+    height: 800px;
+ 
+    margin: auto;
+    padding-left: 160px;
+}
+.alig{
+    display:flex;
+    align-items: center;
+}
+.ext{
+    text-decoration: none;
+    color: beige;
+    margin-left: 800px;
+ font-weight: bolder;
+ font-size: 20px;
+}

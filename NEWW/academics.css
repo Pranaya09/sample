@@ -1,0 +1,35 @@
+body {
+    height: 100%;
+    background-image: url(istockphoto-185007737-170667a.jpg);
+    background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+.new {
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+ol li {
+    font-size: 20px;
+}
+
+.sc {
+    display: flex;
+    width: 60px;
+    height: 60px;
+
+    text-align: center;
+    margin: auto;
+}
+
+.ext {
+    text-decoration: none;
+    color: beige;
+    margin-left: 80%;
+    font-weight: bolder;
+    font-size: 20px;
+}

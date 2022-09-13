@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+    <style>
+      body{
+        background-image: url(istockphoto-185007737-170667a.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    .type{
+      width: 25%;
+      background-color:transparent;
+      height: 550px;
+      background-color:rgba(25, 57, 65, 0.797);
+    
+    z-index: -1;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 4px;
+    padding-top: 2px;
+    padding-left: 10px;
+    border-radius: 20px;
+    
+    
+    }
+     .al{
+      display: flex;
+      align-items: center;
+     } 
+    
+  
+  .log{
+      background-color: rgba(66, 119, 144, 0.797);
+      width:200px;
+      color: black;
+      margin: auto;
+      text-align: center;
+      height: 30px;
+      border-radius: 5px;
+      
+    
+    
+  }
+  span{
+    color: rgba(10, 93, 113, 0.797);
+}
+::placeholder{
+    color: rgba(32, 148, 152, 0.797);
+    font-weight: bolder;
+}
+  </style>
+    
+    </head>
+    <body>
+        <script>
+function login(){
+         var u=document.getElementById("f").value;
+         var p=document.getElementById("l").value;
+         if(u=="admin" && p=="admin"){
+            window.location="welcome.html"
+         }
+        }
+
+
+        </script>
+        <div class="type">
+         <div class="log">
+             <h3 style="color: rgba(255, 255, 255, 0.812); font-size: 18px; font-family: 'Trebuchet MS'";>Login Here</h3>
+
+         </div>
+         <br>
+         <br>
+         <br>
+        <div class="al"> <h5 style="color: rgba(255, 255, 255, 0.812); font-size: 18px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">USERNAME</h5><input style="background:transparent; width:150px; height: 30px; margin-left: 40px; color: black;"
+                    type="text" id="f" ></div>
+                    <br>
+                    <br>
+             <div class="al" ><h5 style="color:  rgba(255, 255, 255, 0.812); font-size: 18px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">PASSWORD </h5><input style="background:transparent; width:150px; height: 30px; margin-left: 40px; " id="l" type="password"
+                    placeholder="Enter password"></div>
+                <br>
+                <br>
+                <br>
+                <br>
+
+                <input
+                    style=" font-weight: bolder; border-radius:5px; margin-left:150px; width: 90px; height:40px; background-color: rgba(17, 100, 138, 0.797); ;"
+                    type="submit" value="LOGIN" onclick="login()">
+                <br><br><br>
+                <br>
+                <p style="text-align: center;">Don't have an account<br>
+                    <a style="text-decoration: none; color:rgba(38, 183, 197, 0.797); " href="register.html">Sign Up
+                        &nbsp;&nbsp;</a>here.
+         </p>
+
+     </div>
+
+      
+       
+       </div>
+    </body>
+    </html>
